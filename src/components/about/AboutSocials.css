@@ -1,0 +1,46 @@
+.about__socials {
+  display: grid;
+
+  gap: 1.5rem;
+
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.300);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 5rem;
+ 
+}
+
+.card> a{
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+
+
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.096);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  
+   
+    .about__socials{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
