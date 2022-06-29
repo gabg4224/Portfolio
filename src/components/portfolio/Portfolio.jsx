@@ -9,59 +9,9 @@ const Portfolio = () => {
       <h2>Portafolio</h2>
       <div className="container portfolio__container">
 
-        <PortfolioItem
-          title={"tiktak"}
-          linkRepository={
-            "https://https://github.com/gabg4224/rock_paper-scissors"
-          }
-          linkApp={"https://gabg4224.github.io/rock_paper-scissors/"}
-          source={tiktakSrc}
-        />
+        <PortfolioItem/>
 
-        <PortfolioItem
-          title={"tiktak"}
-          linkRepository={
-            "https://https://github.com/gabg4224/rock_paper-scissors"
-          }
-          linkApp={"https://gabg4224.github.io/rock_paper-scissors/"}
-          source={tiktakSrc}
-        />
-
-        <PortfolioItem
-          title={"tiktak"}
-          linkRepository={
-            "https://https://github.com/gabg4224/rock_paper-scissors"
-          }
-          linkApp={"https://gabg4224.github.io/rock_paper-scissors/"}
-          source={tiktakSrc}
-        />
-
-        <PortfolioItem
-          title={"tiktak"}
-          linkRepository={
-            "https://https://github.com/gabg4224/rock_paper-scissors"
-          }
-          linkApp={"https://gabg4224.github.io/rock_paper-scissors/"}
-          source={tiktakSrc}
-        />
-
-        <PortfolioItem
-          title={"tiktak"}
-          linkRepository={
-            "https://https://github.com/gabg4224/rock_paper-scissors"
-          }
-          linkApp={"https://gabg4224.github.io/rock_paper-scissors/"}
-          source={tiktakSrc}
-        />
-
-        <PortfolioItem
-          title={"tiktak"}
-          linkRepository={
-            "https://https://github.com/gabg4224/rock_paper-scissors"
-          }
-          linkApp={"https://gabg4224.github.io/rock_paper-scissors/"}
-          source={tiktakSrc}
-        />
+      
       </div>
     </section>
   );

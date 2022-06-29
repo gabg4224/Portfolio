@@ -2,6 +2,7 @@ import "./About.css";
 import ME from "../../assets/gus2.jpg";
 import AboutSocials from "./AboutSocials";
 import CallToAction from "./CallToAction";
+import PortfolioJobs from "../Utils/PortfolioJobs";
 
 const About = () => {
   return (
@@ -18,16 +19,18 @@ const About = () => {
         <div className="about__content">
           <AboutSocials />
 
-           <p className="text-light">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          culpa dolorum ea, unde, laborum tenetur iure laudantium facilis quis
-          maxime a nulla est corporis, nihil necessitatibus nisi repellendus
-          mollitia obcaecati.
-        </p>
-       
+          <p className="text-light">
+            {/*Hello! My name is Micael, and I am a Front-end developer from
+            Buenos Aires, Argentina. I love learning and working with new
+  technologies and I aspire to be the best developer I can become.*/}
+            Hola! mi nombre es{" "}
+            <strong style={{ color: "#fff" }}>Gustavo</strong>, y soy un{" "}
+            <strong style={{ color: "#fff" }}>Desarrollador Front-end</strong>,
+            de Aragua, Venezuela, actualmente resido en Buenos Aires, Argentina.
+            Me gusta aprender y trabajar con nuevas tecnologias y aspiro ser el
+            mejor desarrollador en el que puedo convertirme.
+          </p>
         </div>
-       
-       
       </div>
 
       <CallToAction />
