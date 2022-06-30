@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7c0da086.css",
-    "main.js": "/Portfolio/static/js/main.b47a91d3.js",
+    "main.css": "/Portfolio/static/css/main.ebd704b2.css",
+    "main.js": "/Portfolio/static/js/main.7c3f9832.js",
     "static/media/GustavoBermudezCV.pdf": "/Portfolio/static/media/GustavoBermudezCV.52d4d1cfc8c08eb81b85.pdf",
     "static/media/gus2.jpg": "/Portfolio/static/media/gus2.5d57e04247a1107132a1.jpg",
     "static/media/tiktak.png": "/Portfolio/static/media/tiktak.a95292c1e8cbf20146c9.png",
     "static/media/gus.jpg": "/Portfolio/static/media/gus.d31a80d21f7bd7c3e333.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.7c0da086.css.map": "/Portfolio/static/css/main.7c0da086.css.map",
-    "main.b47a91d3.js.map": "/Portfolio/static/js/main.b47a91d3.js.map"
+    "main.ebd704b2.css.map": "/Portfolio/static/css/main.ebd704b2.css.map",
+    "main.7c3f9832.js.map": "/Portfolio/static/js/main.7c3f9832.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0da086.css",
-    "static/js/main.b47a91d3.js"
+    "static/css/main.ebd704b2.css",
+    "static/js/main.7c3f9832.js"
   ]
 }
