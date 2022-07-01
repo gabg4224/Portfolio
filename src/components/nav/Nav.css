@@ -13,6 +13,10 @@ nav {
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
+nav .show{
+  opacity: 0;
+  visibility: hidden;
+}
 
 nav a {
   background: transparent;

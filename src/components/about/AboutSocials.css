@@ -14,7 +14,6 @@
     border: 1px solid transparent;
     border-radius: 1rem;
     transition: background 0.3s ease, transform 0.2s ease;
-    min-height: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

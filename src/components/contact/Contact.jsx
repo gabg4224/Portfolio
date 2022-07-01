@@ -7,7 +7,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section className="contact" id="contact">
       <h4>Get in touch</h4>
       <h2>Contact me</h2>
 
@@ -24,7 +24,7 @@ const Contact = () => {
             icon={<BsWhatsapp className="contact__option-icon" />}
             util="whatsapp"
             name="+54 11 5843-8872"
-            source="https://wa.me/541158438872"
+            source={"https://wa.me/541158438872"}
           />
         </div>
         <Form />

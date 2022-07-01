@@ -1,8 +1,13 @@
+.contact{
+    margin-top: 5rem;
+}
+
 .container.contact__container{
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap:12% ;
+    
 }
 
 .contact__options{
@@ -12,7 +17,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .contact{
+        margin-top: 3.5rem;
+    }
 .container.contact__container{
+    
     grid-template-columns: 1fr;
     gap: 2rem;
     width: 75%;
@@ -21,6 +30,11 @@
   }
 
   @media screen and (max-width: 600px) {
+
+
+    .contact{
+        margin-top: 3rem;
+    }
     .container.contact__container{
         width: 90%;
     }

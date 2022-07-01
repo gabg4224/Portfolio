@@ -9,6 +9,8 @@
    justify-content: center;
    align-items: center;
     transition: background 0.3s ease, transform 0.2s ease;
+
+cursor: pointer;
 }
 
 .contact__option:hover{
@@ -21,8 +23,9 @@
     margin-bottom: 0.5rem;
 }
 
-.contact__option a{
+.contact__option h6{
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    color: var(--color-pri)
 }

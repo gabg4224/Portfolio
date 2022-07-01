@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .header__container {
   text-align: center;
@@ -24,12 +24,31 @@ header {
 /*==============SCROLL DOWN=================*/
 
 .scroll_down {
-  position: absolute;
-  right: 5%;
-  bottom: 35%;
   transform: rotate(90deg);
-  font-weight: 300;
-  font-size: 1.2rem;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  bottom: 35%;
+}
+
+.scroll_down hr {
+  background-color: blue;
+  width: 20px;
+}
+
+.scroll_down h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+.scroll_down .scroll {
+  transform: rotate(-90deg);
+  font-size: 20px;
 }
 
 /*===================MEDIA QUERIES (MEDIUM DEVICES)================*/
@@ -37,61 +56,77 @@ header {
   header {
     height: 100vh;
   }
-  .scroll_down {
-    right: 1%;
-  }
+
   .me {
     width: 28rem;
     height: auto;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
- 
+    top: 20%;
   }
 }
-
+@media screen and (max-width: 850px) {
+  
+  .scroll_down{
+    display: none;
+  }
+}
 @media screen and (max-height: 850px) {
   .me {
     width: 22rem;
 
   }
+  .scroll_down{
+    display: none;
+  }
 }
 @media screen and (max-height: 715px) {
   .me {
     width: 18rem;
+    top: 18%;
   }
 }
 @media screen and (max-height: 630px) {
   .me {
     width: 15rem;
+    top: 14%;
   }
 }
 @media screen and (max-height: 550px) {
+  header{
+    padding-top: 0.5rem;
+  }
+  
   .me {
     width: 12rem;
   }
 }
 
-@media screen and (max-height: 500px) {
-  header{
-    padding-top: 2.5rem;
-  }
-}
 
 /*===================MEDIA QUERIES (SMALL DEVICES)================*/
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
 
-  .scroll_down {
-    display: none;
+  .me {
+    width: 22rem;
   }
+}
+
+@media screen and (max-width: 550px) {
+
+
+  .me {
+    width: 17rem;
+  top: 16%;}
 }
 @media screen and (max-width: 430px) {
 header h1{
 font-size: 1.8rem;
+}
+
+.me {
+  width: 17rem;
 }
 }
 
