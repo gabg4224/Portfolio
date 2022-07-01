@@ -10,11 +10,12 @@ header {
 
 /*==============ME=================*/
 .me {
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 3rem;
+  width: 28rem;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 27%;
 }
 
 .me img {
@@ -63,7 +64,7 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 20%;
+    top: 22%;
   }
 }
 @media screen and (max-width: 850px) {
@@ -75,13 +76,12 @@ header {
 @media screen and (max-height: 850px) {
   .me {
     width: 22rem;
-
+    top: 25%;
   }
 }
 @media screen and (max-height: 715px) {
   .me {
     width: 18rem;
-    top: 18%;
   }
 }
 @media screen and (max-height: 630px) {
