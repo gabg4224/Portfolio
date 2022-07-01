@@ -1,6 +1,7 @@
 import tiktakSrc from "../../assets/tiktak.png";
 import sketch from "../../assets/sketch.png";
 import clickCounter from "../../assets/click-counter.png";
+import calculator from "../../assets/calculator.png";
 const PortfolioJobs = [
   {
     id: 1,
@@ -22,6 +23,13 @@ const PortfolioJobs = [
     title: "click-counter",
     repository: "https://github.com/gabg4224/click-counter/tree/master",
     liveDemo: "https://gabg4224.github.io/click-counter/",
+  },
+  {
+    id: 4,
+    img: calculator,
+    title: "calculator",
+    repository: "https://github.com/gabg4224/calculator/tree/master",
+    liveDemo: "https://gabg4224.github.io/calculator/",
   },
   
 ];
