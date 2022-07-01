@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ebd704b2.css",
-    "main.js": "/Portfolio/static/js/main.9468396e.js",
+    "main.css": "/Portfolio/static/css/main.ca82ab55.css",
+    "main.js": "/Portfolio/static/js/main.de44c67e.js",
     "static/media/GustavoBermudezCV.pdf": "/Portfolio/static/media/GustavoBermudezCV.52d4d1cfc8c08eb81b85.pdf",
     "static/media/gus2.jpg": "/Portfolio/static/media/gus2.5d57e04247a1107132a1.jpg",
-    "static/media/tiktak.png": "/Portfolio/static/media/tiktak.a95292c1e8cbf20146c9.png",
+    "static/media/tiktak.png": "/Portfolio/static/media/tiktak.5a43ace614d14eff56de.png",
+    "static/media/sketch.png": "/Portfolio/static/media/sketch.50200d17e55d0c88cde4.png",
     "static/media/gus.jpg": "/Portfolio/static/media/gus.d31a80d21f7bd7c3e333.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.ebd704b2.css.map": "/Portfolio/static/css/main.ebd704b2.css.map",
-    "main.9468396e.js.map": "/Portfolio/static/js/main.9468396e.js.map"
+    "main.ca82ab55.css.map": "/Portfolio/static/css/main.ca82ab55.css.map",
+    "main.de44c67e.js.map": "/Portfolio/static/js/main.de44c67e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebd704b2.css",
-    "static/js/main.9468396e.js"
+    "static/css/main.ca82ab55.css",
+    "static/js/main.de44c67e.js"
   ]
 }
