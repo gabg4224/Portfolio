@@ -77,9 +77,6 @@ header {
     width: 22rem;
 
   }
-  .scroll_down{
-    display: none;
-  }
 }
 @media screen and (max-height: 715px) {
   .me {
