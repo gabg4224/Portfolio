@@ -64,7 +64,7 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 22%;
+    top: 25%;
   }
 }
 @media screen and (max-width: 850px) {
@@ -87,7 +87,6 @@ header {
 @media screen and (max-height: 630px) {
   .me {
     width: 15rem;
-    top: 14%;
   }
 }
 @media screen and (max-height: 550px) {
@@ -115,7 +114,8 @@ header {
 
   .me {
     width: 17rem;
-  top: 16%;}
+
+}
 }
 @media screen and (max-width: 430px) {
 header h1{
@@ -138,10 +138,6 @@ font-size: 1.8rem;
 
   .me {
     width: 12rem;
-    height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 2rem;
+
   }
 }

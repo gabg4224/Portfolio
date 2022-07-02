@@ -20,9 +20,11 @@ const About = () => {
 
           <p className="text-light">
             Hello! My name is <strong style={{ color: "#fff" }}>Gustavo</strong>
-            , and I am a Front-end developer from Aragua, Venezuela, i currently
-            reside in Buenos Aires, Argentina. I love learning and working with
-            new technologies and I aspire to be the best developer I can become.
+            , and I am a{" "}
+            <strong style={{ color: "#fff" }}>Front-end developer</strong> from
+            Aragua, Venezuela, i currently reside in Buenos Aires, Argentina. I
+            love learning and working with new technologies and I aspire to be
+            the best developer I can become.
           </p>
         </div>
       </div>

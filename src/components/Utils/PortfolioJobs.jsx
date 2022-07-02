@@ -1,12 +1,12 @@
-import tiktakSrc from "../../assets/tiktak.png";
+import  rock_paper_scissors from "../../assets/tiktak.png";
 import sketch from "../../assets/sketch.png";
 import clickCounter from "../../assets/click-counter.png";
 import calculator from "../../assets/calculator.png";
 const PortfolioJobs = [
   {
     id: 1,
-    img: tiktakSrc,
-    title: "tiktak",
+    img:  rock_paper_scissors,
+    title: " rock-paper-scissors",
     repository: "https://https://github.com/gabg4224/rock_paper-scissors",
     liveDemo: "https://gabg4224.github.io/rock_paper-scissors/",
   },
